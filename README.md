@@ -1,0 +1,1 @@
+simple pay splitter for me and my dad.
