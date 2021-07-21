@@ -12,3 +12,4 @@ splitpay = netpay / 2
 netpay = round(splitpay, 2) 
 print(f"Split pay is: {float(splitpay)}$ Each.")
 #test2
+#test3
