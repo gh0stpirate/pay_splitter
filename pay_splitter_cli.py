@@ -9,5 +9,6 @@ result = round(result, 2)
 print(f"{result}$ is the total deductions for tax and WSIB.")
 netpay = float(total) - result
 splitpay = netpay / 2
-netpay = round(splitpay, 2)
+netpay = round(splitpay, 2) 
 print(f"Split pay is: {float(splitpay)}$ Each.")
+#test
