@@ -3,6 +3,7 @@
 #flags to add= does dad owe money? bool
 print('Does your dad owe you money? if so put how much. If not, type "no"')
 doesdadowe = input()
+
 if doesdadowe != "no":
     dadpay = doesdadowe
 else:
@@ -19,11 +20,14 @@ splitpay = netpay / 2
 splitpay = round(splitpay, 2)
 netpay = round(splitpay, 2) 
 robpay = splitpay
+
 if doesdadowe != "no":
   dadpay = splitpay - float(doesdadowe)
   print (f"Dad's pay is:{float(dadpay)}$")
+  print (f"Rob's pay is:{float(robpay)} + {float(doesdadowe)} = {robpay+float(doesdadowe)}$")
 
-print(f"Split pay is: {splitpay}$ Each.")
+if doesdadowe == "no":
+  print(f"Split pay is: {splitpay}$ Each.")
 
 #test2
 #test3
